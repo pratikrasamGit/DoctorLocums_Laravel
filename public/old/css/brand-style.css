@@ -1,0 +1,527 @@
+/* ---------------------------
+Font Style
+------------------------------ */
+@font-face {
+  font-family: "San Francisco Display Ultralight";
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.eot?#iefix) format("embedded-opentype"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2) format("woff2"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff) format("woff"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.ttf) format("truetype"), 
+  url("fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.svg#San Francisco Display Ultralight") format("svg")
+}
+
+@font-face {
+  font-family: "San Francisco Display Thin";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.eot?#iefix) format("embedded-opentype"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2) format("woff2"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff) format("woff"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.ttf) format("truetype"), 
+  url("fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.svg#San Francisco Display Thin") format("svg")
+}
+
+@font-face {
+  font-family: "San Francisco Display Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.eot?#iefix) format("embedded-opentype"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff2) format("woff2"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff) format("woff"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.ttf) format("truetype"), 
+  url("fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.svg#San Francisco Display Regular") format("svg")
+}
+
+@font-face {
+  font-family: "San Francisco Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.eot?#iefix) format("embedded-opentype"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2) format("woff2"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff) format("woff"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.ttf) format("truetype"), 
+  url("fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.svg#San Francisco Display Medium") format("svg")
+}
+
+@font-face {
+  font-family: "San Francisco Display Semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.eot?#iefix) format("embedded-opentype"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2) format("woff2"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff) format("woff"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.ttf) format("truetype"), 
+  url("fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.svg#San Francisco Display Semibold") format("svg")
+}
+
+@font-face {
+  font-family: "San Francisco Display Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.eot?#iefix) format("embedded-opentype"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2) format("woff2"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff) format("woff"), 
+  url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.ttf) format("truetype"), 
+  url("fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.svg#San Francisco Display Bold") format("svg")
+}
+
+ 
+
+body,
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+textarea, 
+select, 
+input[type="button"], 
+input[type="submit"], 
+button, 
+body .pac-container{
+    font-family: "San Francisco Display Regular";
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    font-family: "San Francisco Display Medium";
+}
+
+a{
+  color: #5093d5;
+}
+
+
+/* ---------------------------
+Header Style
+------------------------------ */
+#header{
+    background-image: linear-gradient(135deg,#684995 21%,#435595 100%)!important;
+    background-origin: border-box!important;
+}
+#header #logo{
+    border-right: 0px;
+}
+#header #logo img{
+    max-height: 35px;
+}
+@media (min-width: 1099px){
+  #header-container.dashboard-header #logo {
+      width: auto;
+  }
+}
+
+
+/* Menu with Dropdown */
+#navigation ul li a, 
+#navigation ul ul li a{
+    color: #fff;
+}
+#navigation ul li a.current,
+#navigation ul li:hover a{
+    color: #56c9ff;
+}
+#navigation ul li a.current:after,
+#navigation ul ul.dropdown-nav ul.dropdown-nav li:hover a:after, 
+#navigation ul ul.dropdown-nav li:hover a:after, 
+#navigation ul li:hover a:after{
+    color: #ffffff;
+    background: #56c9ff;
+    opacity: 0.9;
+}
+#navigation ul ul{
+    background-color: #0091d5;
+}
+#navigation ul ul:after{
+    border-bottom-color: #5093d5;
+}
+#navigation ul ul.dropdown-nav ul.dropdown-nav ul.dropdown-nav li a, 
+#navigation ul ul.dropdown-nav ul.dropdown-nav li a, 
+#navigation ul ul.dropdown-nav li a{
+    color: #fff;
+}
+#navigation ul ul.dropdown-nav ul.dropdown-nav li a:after, 
+#navigation ul ul.dropdown-nav li a:after{
+    background-color: rgba(255,255,255,0.5);
+    color: #fff;
+}
+#navigation ul ul li:hover{
+    background: #455495;
+}
+
+/* Notification */
+#header .right-side{
+    background-color: transparent;
+}
+.header-widget{
+    border-left: 0px;
+}
+.header-notifications-trigger, 
+.header-notifications-trigger a{
+    color: #fff;
+}
+.header-notifications-trigger span{
+    background-color: #00e7a7;
+    color: #333;
+}
+
+.center-align{
+  justify-content: center;
+}
+
+
+/* ---------------------------
+Home page Style
+------------------------------ */
+.intro-banner-search-form,
+.intro-banner.dark-overlay .intro-banner-search-form,
+.not-found-search.intro-banner-search-form,
+.not-found-search.intro-banner-search-form .intro-search-field,
+.intro-banner-search-form .intro-search-field input{
+ background-color: transparent;
+ box-shadow: none;
+}
+.intro-search-field{
+  border-right: 0px;
+  padding-left: 0px;
+}
+.intro-banner.dark-overlay:before{
+  opacity: 0.2;
+}
+.intro-banner-search-form.light-text .intro-search-field input{
+  color: #fff;
+}
+.intro-banner-search-form .input-with-icon i,
+.intro-banner-search-form .intro-search-field input::placeholder{
+  color: #e4e4e4;
+}
+.intro-search-field .field-title,
+span.blog-item-tag{
+  background: #8a65a6;
+  color: #fff;
+}
+.job-listing.with-apply-button:hover .list-apply-button{
+  background-color: #00e7a7;
+  color: #39175d;
+}
+.compact-list-layout .job-listing:before,
+.slick-prev, 
+.slick-next{
+  background-color: #3400e9;
+}
+.slick-prev:hover, 
+.slick-next:hover{
+  background-color: #3400e9;
+
+  -webkit-box-shadow:inset 100px 100px 0 100px rgba(0,0,0,0.08);
+  box-shadow:inset 100px 100px 0 100px rgba(0,0,0,0.08);
+}
+
+.photo-section:before{
+  opacity: 0;
+}
+#not-found h2{
+  color: #8a65a6;
+}
+
+
+/* ---------------------------
+Elements Style
+------------------------------ */
+
+/* List Style */
+.list-1 li:before{
+  background-color: #5093d5;
+}
+.list-4 li:before, 
+.list-3 li:before, 
+.list-2 li:before, 
+.list-1 li:before{
+  color: #5093d5;
+}
+.numbered ol > li::before{
+  color: #5093d5;
+  border-color: #5093d5;
+}
+.numbered.color ol > li::before {
+  border: 1px solid #8a64a6;
+  color: #8a64a6;
+}
+.numbered.color.filled ol > li::before {
+    border: 1px solid #8a64a6;
+    background-color: #8a64a6;
+}
+
+
+iframe{
+  border: none;
+}
+
+
+/* Search Option */
+.search-area{
+  display: inline-block;
+  width: calc(100% - 242px);
+  padding-right: 242px;
+}
+.search-box{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.search{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 82px;
+    border-radius: 0;
+
+    background-image: linear-gradient(135deg,#684995 21%,#435595 100%)!important;
+    background-origin: border-box!important;
+}
+.search:before{
+  display: none;
+}
+.search input[type="text"]{
+  color: #fff !important;
+  margin: 15px 0 0 0;
+  padding-right: 46px;
+}
+
+.search input::placeholder,
+.search input:placeholder-shown{
+  color: white;
+  opacity: 0.8;
+}
+.search i{
+  color: #fff;
+  opacity: 0.6;
+}
+.search i.right{
+  right: 0;
+}
+@media (max-width: 1099px){
+  .search {
+      height: 76px;
+  }
+}
+
+
+/* Breadcrumbs */
+#breadcrumbs{
+    font-weight: 500;
+}
+
+
+/* Tab style */
+.tabs-header{
+    background: #0091d5;
+}
+.tabs-nav i,
+.tabs-nav i:hover{
+    background-color: #3400e9;
+}
+.tabs-nav i:hover{
+    opacity: 0.5;
+}
+.tabs-header .active,
+.tabs-header .tab-hover{
+    background: #3400e9;
+}
+
+
+/* Tab with Numbers */
+.tabs-num .tabs-header ul{
+    counter-reset: custom-counter;
+}
+.tabs-num .tabs-header ul li{
+  position: relative;
+  padding: 15px 25px;
+  counter-increment: custom-counter;
+}
+.tabs-num .tabs-header ul li::before {
+  content: counter(custom-counter) ". ";
+  position: absolute;
+  bottom: 19px;
+  color: #fff;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.tabs-num .tabs-header a{
+    padding: 0 0 0 34px;
+    line-height: 22px;
+}
+.tabs-num .tabs-header a span{
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.7;
+}
+
+@media (max-width: 992px){
+  .tabs-num .tabs-header ul li{
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.15);
+  }
+  .tabs-num .tabs-header ul li.active a {
+    background-color: transparent;
+  }
+  .tabs-num .tabs-header ul li a{
+    box-shadow: none;
+  }
+}
+
+
+/* Button Style */
+span.button, 
+button.button, 
+input[type="button"], 
+input[type="submit"], 
+a.button{
+  font-family: "San Francisco Display Medium";
+  background-color: #00e7a7;
+  color: #39175d;
+}
+span.button:hover, 
+button.button:hover, 
+input[type="button"]:hover, 
+input[type="submit"]:hover, 
+a.button:hover,
+.keyword:hover,
+button:hover,
+.newsletter button:hover{
+  -webkit-box-shadow:inset 100px 100px 0 100px rgba(0,0,0,0.08);
+  box-shadow:inset 100px 100px 0 100px rgba(0,0,0,0.08);
+}
+
+button.button.dark, 
+input[type="button"].dark, 
+input[type="submit"].dark, 
+a.button.dark,
+.newsletter button,
+.newsletter button:hover{
+  background-color: #3400e9;
+  color: #fff;
+}
+button.button.purple, 
+input[type="button"].purple, 
+input[type="submit"].purple, 
+a.button.purple{
+  background-color: #8a64a6;
+  color: #fff;
+}
+
+
+/* Input Style */
+input, 
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="number"], 
+textarea, 
+select{
+  padding: 8px 0;
+  color: #664191;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: solid 1px #846fa8;
+}
+input:focus, 
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="email"]:focus, 
+input[type="number"]:focus, 
+textarea:focus{
+  border-bottom: solid 1px #9a00ee;
+  box-shadow: none;
+}
+
+input.with-border, 
+input[type="text"].with-border, 
+input[type="password"].with-border, 
+input[type="email"].with-border, 
+input[type="number"].with-border, 
+textarea.with-border, 
+select.with-border{
+  padding: 0 20px;
+  color: #808080;
+  margin: 0 0 16px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  -webkit-box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.05);
+}
+input.with-border:focus, 
+input[type="text"].with-border:focus, 
+input[type="password"].with-border:focus, 
+input[type="email"].with-border:focus, 
+input[type="number"].with-border:focus, 
+textarea.with-border:focus, 
+select.with-border:focus{
+  -webkit-box-shadow: 0 0px 12px 0px rgba(154, 0, 238, 0.16);
+  box-shadow: 0 0px 12px 0px rgba(154, 0, 238, 0.16);
+}
+
+.input-with-icon-left input{
+  padding-left: 46px;
+}
+.input-with-icon-left input.with-border{
+  padding-left: 60px;
+}
+.input-with-icon-left i{
+  font-size: 24px;
+  background: transparent;
+}
+
+.keyword-input-container .keyword-input-button{
+  background-color: #3400e9;
+}
+.keyword{
+  background-color: rgb(138, 100, 166);
+  color: #ffffff;
+}
+
+
+/* Checkbox Style */
+.checkbox input:checked + label span.checkbox-icon,
+.radio input[type="radio"]:checked + label .radio-label{
+  border-color: #5093d5;
+  background-color: #5093d5;
+}
+input:checked + .switch-button{
+  background-color: #5093d5;
+}
+
+/* Slider Style */
+.slider-handle{
+  border: 2px solid #5093d5;
+}
+.slider-selection{
+  background-color: #5093d5;
+}
+.slider .tooltip-inner{
+  background-color: #8a65a6;
+}
+.slider .tooltip-arrow{
+  border-top: 6px solid #8965a6;
+}
+
+
+/* Mark Style */
+mark{
+  background-color: #00e7a7;
+  color: #39175d;
+}
+mark.color{
+  background-color: #445595;
+}
+
+
+

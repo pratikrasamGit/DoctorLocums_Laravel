@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddTitleFiledToNurseVideoLinkToJobTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('jobs', function (Blueprint $table) {
+            $table->string('job_video')->nullable();
+        });
+        Schema::table('nurses', function (Blueprint $table) {
+            $table->string('credential_title')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('jobs', function (Blueprint $table) {
+            $table->dropColumn('job_video');
+        });
+        Schema::table('nurses', function (Blueprint $table) {
+            $table->dropColumn('credential_title');
+        });
+    }
+}

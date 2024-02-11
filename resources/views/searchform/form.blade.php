@@ -1,0 +1,1 @@
+{{Form::text('search_text',\Request::get('search_text'), ['placeholder' => 'Search ...', 'class' => 'with-border', 'maxlength' => 100])}}

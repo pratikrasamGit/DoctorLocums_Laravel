@@ -1,0 +1,239 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body.modal-open {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0;
+}
+
+.my_modal {
+    padding-right: 17px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.05)
+}
+
+.modal-open .my_modal {
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+}
+
+
+.popup_modal {
+    width: 500px;
+    min-height: 250px;
+    background-color: #ffffff;
+    margin: auto;
+    position: relative;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.modal-open .popup_modal {
+    display: block;
+}
+
+.popup_modal h4 {
+    margin-top: 0px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 40px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #ffc700;
+}
+
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked label:hover label,
+.rate>label:hover input:checked label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)+label:hover,
+.rate:not(:checked)+label:hover~label,
+.rate:not(:checked)~label:hover,
+.rate:not(:checked) label:hover label,
+.rate>label:hover input:checked label {
+    color: #ccc;
+}
+.rating-group {
+    display: inline-flex;
+}
+
+
+.number_select {
+    display: block;
+}
+
+.number_select_hdng {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #68737B;
+    margin: 10px 0px;
+}
+
+.number_select .number_label input.number_label_input {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DEE2E4;
+    border-radius: 2px;
+    text-align: center;
+    outline: none !important;
+    box-shadow: none !important;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #DEE2E4;
+    padding: 0px !important;
+    cursor: pointer;
+}
+
+.number_label_input.active {
+    color: #DEE2E4;
+    background: #595094;
+    border: 1px solid #595094;
+}
+
+.popup_modal textarea {
+    width: 95%;
+    border: 1px solid #E1E5E8;
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 100px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BBC3C9;
+    font-weight: 600;
+
+}
+
+.popup_modal .m_btn {
+    width: 100%;
+    height: 60px;
+    background: #2BE3BD;
+    box-shadow: 0px 9px 17px rgba(89, 80, 148, 0.18);
+    border-radius: 31px;
+    border: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close_modal {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #595094;
+    color: #ffffff;
+    border: 0px;
+    outline: none;
+    box-shadow: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+    .popup_modal {
+        width: 300px;
+        padding: 20px;
+    }
+    .number_select .number_label input.number_label_input {
+        width: 20px;
+        height: 20px;
+        margin-right: 2px;
+    }
+}
+
+/* setup 6 */
+.rating {
+    width: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rating:hover input:checked+label,
+.rating:hover input:checked+label~label {
+    color: #ffc700;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    text-align: center;
+    width: 60px;
+    font-size: 50px;
+}
+
+.rating label:hover,
+.rating label:hover~label {
+    color: #cccccc !important;
+}
+
+.rating input:checked+label,
+.rating input:checked+label~label {
+    color: #ffc700;
+}
+
+/* setup 6 */
