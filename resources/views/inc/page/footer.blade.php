@@ -69,8 +69,7 @@
         PostAffTracker.track();
     } catch (err) {}
 </script>
-{{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA79miT_WdRMx999ohM1pnras6_15UOJWQ&libraries=places"></script> --}}
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4RPFSIF8JjM8EpuScHICcbMZsCLTcgjE&libraries=places">
+<script src="">
 </script>
 <script src="{{ asset('js/infobox.min.js') }}"></script>
 <script src="{{ asset('js/markerclusterer.js') }}"></script>
